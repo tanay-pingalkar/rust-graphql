@@ -13,7 +13,7 @@ a crud graphql actix diesel server made in rust
 ===================================================================================
 ~ CREATE DATABASE rust_graphql
 ===================================================================================
-~ echo DATABASE_URL=postgresql://postgres:krutika24@localhost/rust_graphql > .env
+~ echo DATABASE_URL=postgresql://postgres:password@localhost/rust_graphql > .env
 ===================================================================================
 ~ diesel migration run
 ===================================================================================
